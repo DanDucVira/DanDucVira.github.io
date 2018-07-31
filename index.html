@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Daniel Ducas-Viramontes">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="Css/reset.css">
+    <link rel="stylesheet" href="Css/main.css">
+    <title>Daniel Ducas-Viramontes - Front-End-Developer / Programmer</title>
+</head>
+
+<body>
+    <nav>
+
+        <div class="toggle">
+            <i class="fas fa-bars menu"></i>
+        </div>
+
+        <ul>
+
+
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About me</a>
+            </li>
+            <li>
+                <a href="">Skills</a>
+            </li>
+            <li>
+                <a href="">Portfolio</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <header class="landing-page">
+        <div class="container">
+            <img src="img/Daniel1.jpg" alt="Picture of the author of the webpage">
+            <h1>Hi! I'm Daniel</h1>
+            <h3>Front End Developer / Programmer</h3>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="far fa-envelope"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+
+
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <section class="about-me">
+            <div class="container-aboutme">
+                <h2>About Me</h2>
+                <p>Hi I'm Daniel</p>
+                <p>I'm a Self-taught Front End Developer and Programmer.
+                    <br>I'm a Cyber Nerd and a Caffeine Addict. I'm very passionate about technology. </p>
+                <p>I am available as a freelance web developer and would love to take up challenging projects. If you would
+                    like to talk about a project, opportunity, consult about something, feel free to leave a message.</p>
+            </div>
+
+
+
+
+        </section>
+
+        <section class="skills-section">
+            <h2>Skills</h2>
+
+            <div class="container-bars">
+                <p>HTML</p>
+                <div class="container-skill">
+                    <div class="skills html">90%</div>
+                </div>
+
+                <p>CSS</p>
+                <div class="container-skill">
+                    <div class="skills css">80%</div>
+                </div>
+
+                <p>JavaScript</p>
+                <div class="container-skill">
+                    <div class="skills js">65%</div>
+                </div>
+
+                <p>Bootstrap 4</p>
+                <div class="container-skill">
+                    <div class="skills Bootstrap">60%</div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="container-img">
+
+                <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+                <img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg">
+                <img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg">
+                <img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg">
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <p>Copyright &copy; Daniel Ducas-Viramontes</p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.toggle').click(function () {
+                $('ul').toggleClass('active');
+            })
+        })
+    </script>
+</body>
+
+</html>
