@@ -1,0 +1,66 @@
+.navbar {
+    padding: 15px;
+    background: #032d46;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background: red;
+}
+
+#aboutme {
+    background: #264e68;
+}
+
+.jumbotron {
+    background: url(../img/html.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron p {
+    animation-duration: 1s;
+}
+
+.jumbotron a:hover {
+    font-size: 18px;
+}
+
+footer a:hover {
+    font-size: 18px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.container-fluid img {
+    height: 180px;
+}
+
+.nav-item {
+    font-size: 22px;
+    margin-left: 35px;
+}
+
+footer {
+    margin-top: 85px;
+    background: #032d46;
+}
+
+.fas fa-envelope {
+    text-decoration: none;
+    text-transform: none;
+}
+
+h1 {
+    animation-duration: 1s;
+}
+
+h2 {
+    animation-duration: 1s;
+    animation-delay: 3s
+}
