@@ -12,8 +12,10 @@
     background: #264e68;
 }
 
-main {
+.portfolio {
     background: #E8E8E8;
+    margin-top: 0;
+    padding: 0;
 }
 
 .jumbotron {
