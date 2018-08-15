@@ -12,6 +12,10 @@
     background: #264e68;
 }
 
+main {
+    background: #eee;
+}
+
 .jumbotron {
     background: url(../img/html.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -47,7 +51,7 @@ img {
 }
 
 footer {
-    margin-top: 85px;
+    margin-top: 25px;
     background: #032d46;
 }
 
