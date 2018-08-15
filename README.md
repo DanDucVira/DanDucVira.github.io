@@ -2,7 +2,7 @@
 My Portfolio Webpage
 
 
-Version 2.5 14-08-2018
+Version 3.0.0 14-08-2018
 
 
 Copyright Daniel Ducas-Viramontes
