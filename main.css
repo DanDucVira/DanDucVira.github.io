@@ -70,3 +70,27 @@ h2 {
     animation-duration: 1s;
     animation-delay: 3s
 }
+
+.progress-bar {
+    background-color: pink;
+}
+
+.text-pink {
+    color: pink;
+}
+
+.bg-orange {
+    background-color: #EE7600;
+}
+
+.text-orange {
+    color: #EE7600;
+}
+
+.bg-purple {
+    background-color: #551A8B;
+}
+
+.text-purple {
+    color: #551A8B;
+}
