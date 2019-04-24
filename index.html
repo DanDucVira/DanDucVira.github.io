@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Daniel Ducas Viramontes Portfolio">
-    <meta name="keywords" content="PortFolio, Html, css,javascript, Daniel, Ducas,Viramontes,Front end developer, web developer.">
+    <meta name="keywords"
+        content="PortFolio, Html, css,javascript, Daniel, Ducas,Viramontes,Front end developer, web developer.">
     <meta name="author" content="Daniel Ducas-Viramontes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animate.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -33,9 +34,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light text-white justify-content-center">
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-light text-white justify-content-center">
             <div class="container  justify-content-end">
-                <button class="navbar-toggler justify-content-center bg-light" data-toggle="collapse" data-target="#mainNav">
+                <button class="navbar-toggler justify-content-center bg-light" data-toggle="collapse"
+                    data-target="#mainNav">
                     <span class="navbar-toggler-icon justify-content-center"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="mainNav">
@@ -50,18 +52,21 @@
             </div>
         </nav>
 
-        <div class="jumbotron jumbotron-fluid text-center m-0">
+        <div class="jumbotron jumbotron-fluid text-center m-0" id="welcome-section">
             <div class="container">
-                <h1 class="display-4 text-uppercase font-weight-bold m-4 text-white rollIn ">Welcome to my world</h1>
+
+                <h1 class="display-4 text-uppercase font-weight-bold m-4 text-white rollIn ">Welcome to my world
+                </h1>
                 <p class="lead p-4 text-white rollIn">Hi I'm Daniel
                     <br> Front End Developer / Programmer
 
 
                 </p>
+
                 <a href="mailto:dducasviramontes@gmail.com?Subject=Hello" target="_top">
                     <i class="fas fa-envelope fa-3x text-white m-2 "></i>
                 </a>
-                <a href="https://github.com/DanDucVira" target="_blank">
+                <a id="profile-link" href="https://github.com/DanDucVira" target="_blank">
                     <i class="fab fa-github fa-3x text-white m-2"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/daniel-ducas-viramontes-bb8410157/ " target="_blank ">
@@ -78,67 +83,78 @@
             <div class="container text-white">
                 <h2 class="text-center py-5">About Me</h2>
                 <img class="img-fluid rounded mx-auto d-block" src="img/Daniel1.jpg" alt="Picture of myself ">
-                <p class=" lead text-center py-4">I'm a Self-Taught Front End Developer and Programmer. I'm a Cyber Nerd and a Caffeine Addict. I'm very passionate
-                    about technology. I am available as a freelance web developer and would love to take up challenging projects.
-                    If you would like to talk about a project, opportunity, consult about something or if you'd like to hire
+                <p class=" lead text-center py-4">I'm a Self-Taught Front End Developer and Programmer. I'm a Cyber
+                    Nerd and a Caffeine Addict. I'm very passionate
+                    about technology. I am available as a freelance web developer and would love to take up challenging
+                    projects.
+                    If you would like to talk about a project, opportunity, consult about something or if you'd like to
+                    hire
                     me feel free to leave a message.
                 </p>
             </div>
         </section>
         <section class=" m-0 p-5 " id="skills">
             <h1 class=" m-0 text-center">Skills</h1>
+            <button class="btnSkills">Show</button>
+            <div class="containerSkills">
+                <div class="container">
+                    <h2 class="my-4  bounceIn text-orange animated">HTML5</h2>
 
-            <div class="container">
-                <h2 class="my-4  bounceIn text-orange animated">HTML5</h2>
+                    <div class="progress ">
+                        <div class="progress-bar progress-bar-striped active bg-orange progress-bar-animated "
+                            role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                            style="width:90%">
+                            90%
+                        </div>
+                    </div>
+                    <h2 class="my-4 text-primary bounceIn animated">CSS3</h2>
 
-                <div class="progress ">
-                    <div class="progress-bar progress-bar-striped active bg-orange progress-bar-animated " role="progressbar" aria-valuenow="90"
-                        aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                        90%
+                    <div class="progress">
+                        <div class=" progress-bar progress-bar-striped active  bg-primary progress-bar-animated "
+                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                            style="width:80%">
+                            80%
+                        </div>
+                    </div>
+                    <h2 class="my-4 text-warning bounceIn animated">Javascript</h2>
+
+                    <div class="progress">
+                        <div class=" progress-bar progress-bar-striped active bg-warning progress-bar-animated"
+                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                            style="width:70%">
+                            70%
+                        </div>
+                    </div>
+                    <h2 class="my-4  text-purple animated bounceIn ">Bootstrap4</h2>
+
+                    <div class="progress">
+                        <div class=" progress-bar progress-bar-striped active bg-purple progress-bar-animated "
+                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                            style="width:80%">
+                            80%
+                        </div>
+                    </div>
+                    <h2 class="my-4  text-pink animated bounceIn ">SASS</h2>
+
+                    <div class="progress">
+                        <div class=" progress-bar progress-bar-striped active  progress-bar-animated "
+                            role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                            style="width:40%">
+                            40%
+                        </div>
                     </div>
                 </div>
-                <h2 class="my-4 text-primary bounceIn animated">CSS3</h2>
-
-                <div class="progress">
-                    <div class=" progress-bar progress-bar-striped active  bg-primary progress-bar-animated " role="progressbar" aria-valuenow="40"
-                        aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                        80%
-                    </div>
-                </div>
-                <h2 class="my-4 text-warning bounceIn animated">Javascript</h2>
-
-                <div class="progress">
-                    <div class=" progress-bar progress-bar-striped active bg-warning progress-bar-animated" role="progressbar" aria-valuenow="40"
-                        aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                        70%
-                    </div>
-                </div>
-                <h2 class="my-4  text-purple animated bounceIn ">Bootstrap4</h2>
-
-                <div class="progress">
-                    <div class=" progress-bar progress-bar-striped active bg-purple progress-bar-animated " role="progressbar" aria-valuenow="40"
-                        aria-valuemin="0" aria-valuemax="100" style="width:80%">
-                        80%
-                    </div>
-                </div>
-                <h2 class="my-4  text-pink animated bounceIn ">SASS</h2>
-
-                <div class="progress">
-                    <div class=" progress-bar progress-bar-striped active  progress-bar-animated " role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                        aria-valuemax="100" style="width:40%">
-                        40%
-                    </div>
-                </div>
-            </div>
         </section>
-        <section class="portfolio p-5">
+        </div>
+        <section class="portfolio p-5" id="projects">
             <div class="container">
                 <h1 class="text-center m-5" id="portfolio">Portfolio</h1>
                 <div class="row my-3">
                     <div class="col-md-4 ">
-                        <div class="thumbnail">
+                        <div class="thumbnail  project-tile">
                             <a href="https://danducvira.github.io/PhotographyWebsite/" target="_blank ">
-                                <img src="img/photography.png" alt="example of a photography website" style="width:100%">
+                                <img src="img/photography.png" alt="example of a photography website"
+                                    style="width:100%">
                                 <div class="caption">
                                     <p class="text-center">Photography Website</p>
                                 </div>
@@ -149,7 +165,8 @@
                     <div class="col-md-4">
                         <div class="thumbnail">
                             <a href="https://danducvira.github.io/BookMarker/" target="_blank">
-                                <img src="img/bookmark.png" alt="picture of a bookmarker for websites" style="width:100%">
+                                <img src="img/bookmark.png" alt="picture of a bookmarker for websites"
+                                    style="width:100%">
                                 <div class="caption">
                                     <p class="text-center">Bookmarker for Websites</p>
                                 </div>
@@ -226,12 +243,17 @@
             <p class="text-white">&copy; Daniel Ducas-Viramontes 2018</p>
 
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+        <script src=script.js></script>
 </body>
 
 </html>

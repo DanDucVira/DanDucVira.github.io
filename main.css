@@ -2,6 +2,9 @@
     padding: 15px;
     background: #032d46;
     font-size: 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .navbar a:hover {
@@ -24,6 +27,11 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#welcome-section {
+    height: 100vh;
+    padding: 20% 0px;
 }
 
 .jumbotron p {
